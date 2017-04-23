@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 ## Class Project: "Getting and Cleaning Data" 
 
 The aim of this project is read a data set from ["Human Activity Recognition Using Smartphones" data set], which is stored in (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
@@ -29,9 +24,6 @@ The input dataset includes the following files:
 8. Calculate mean of each subject and each activity.
 9. Write the output tidy data set.
 
-
-**Once those steps are complete, you can run the R script ([run_analysis.R](run_analysis.R)).** Note that it requires the [reshape2 package](http://cran.r-project.org/web/packages/reshape2/index.html), which can be downloaded from CRAN.
-
-**The output of the R script is a tidy data set, [tidy.csv](tidy.csv).**
+**The output of the R code is a tidy data set, [tidydata.txt](tidydata.txt).**
 
 You can read more about the data and the analysis in the [code book](CodeBook.md).
