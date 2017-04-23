@@ -44,12 +44,16 @@ test.df <- cbind(testSub, testAct, testVal)
 finalDat <- rbind(train.df, test.df)
 colnames(finalDat) <- c("subject", "activity", newfeatures)
 
-# Turn activities and subjects into factors
+# Change activities and subjects to factors. Characters instead of numbers
 
 finalDat$activity <- factor(finalDat$activity, levels = actLabels[,1], labels = actLabels[,2])
 finalDat$subject <- as.factor(finalDat$subject)
 
+# Calculate mean of each subject and each activity 
+
 finalDat.melted <- melt(finalDat, id = c("subject", "activity"))
 finalDat.mean <- dcast(finalDat.melted, subject + activity ~ variable, mean)
+
+# Write the output tidy data set
 
 write.table(finalDat.mean, "tidydata.txt", row.names = FALSE, quote = FALSE)
