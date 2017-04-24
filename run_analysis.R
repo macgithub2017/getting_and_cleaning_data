@@ -42,7 +42,7 @@ test.df <- cbind(testSub, testAct, testVal)
 # Merge datasets and add labels
 
 finalDat <- rbind(train.df, test.df)
-colnames(finalDat) <- c("subject", "activity", newfeatures)
+colnames(finalDat) <- c("subject", "activity", newfeatures.names)
 
 # Change activities and subjects to factors. Characters instead of numbers
 
