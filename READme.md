@@ -3,7 +3,7 @@
 The aim of this project is read a data set from ["Human Activity Recognition Using Smartphones" data set], which is stored in (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 The code, which ahs been written in R and is called "Run_analysis.R", performs an analysis on the data set and writes a tidy data set file. 
 
-**Variables of Run_analysis.R**
+**Variables of run_analysis.R**
 
 - `actLabels`  Activity labels
 - `featrures`  All features of data set
@@ -19,7 +19,7 @@ The code, which ahs been written in R and is called "Run_analysis.R", performs a
 - `finalDat`  Data set  has the mean and standard deviation
 - `finalDat.mean` Data set with the average of each variable for each activity and each subject
 
-**Steps of Run_analysis.R**
+**Steps of run_analysis.R**
 
 1. Charging libraries.
 2. Unziping the original data sets (UCI HAR Dataset).
