@@ -136,6 +136,7 @@ Frequency body gyroscope standard deviation along X, Y, and Z:
 - `fBodyGyroStdX`
 - `fBodyGyroStdY`
 - `fBodyGyroStdZ`
+
 Frequency body gyroscope standard deviation along X, Y, and Z:
 - `fBodyGyroMeanFreqX`
 - `fBodyGyroMeanFreqY`
